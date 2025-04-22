@@ -57,7 +57,7 @@ const OurPlans = () => {
       title:
         "Growing of Plantains and Habanero peppers to further enhance carbon sequestration",
       icon: <FaLeaf className="text-green-600 text-2xl" />,
-      image: "/plantain.jpg",
+      image: "/Plantain.jpg",
       color: "from-lime-500 to-lime-600",
     },
     {
