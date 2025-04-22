@@ -37,7 +37,7 @@ const Hero = () => {
         >
           <p>increasing tree cover and restoring ecosystems </p>
           <p className="text-xl md:text-2xl font-normal pt-12 max-w-md md:max-w-xl mx-auto">
-            creating environmental impact and economic opportunities through
+            creating environmental, social impact and economic opportunities through
             sustainable & regenerative agroforestry
           </p>
         </motion.h1>

@@ -81,7 +81,9 @@ const About = () => {
                 conservation and regenerative agriculture - integrating
                 agroforestry practices that benefit both the environment and
                 local community, ensuring that trees remain a long lasting
-                environmental and economic asset.
+                environmental and economic asset. We also foster social impact
+                through water/energy access, and climate awareness through
+                community education and engagement.
               </motion.p>
               <div className="relative h-64 sm:h-80 md:h-120 overflow-hidden rounded-xl">
                 <motion.div
@@ -125,8 +127,10 @@ const About = () => {
                 tree species. This leads to hotter climates, reduced soil
                 fertility, and biodiversity loss, while also driving food
                 scarcity and making essential resources increasingly expensive.
-                In Amalla community, Udenu LGA, Enugu State, we are reversing
-                this trend.
+                Many of these issues are worsened by low awareness about climate
+                and tree conservation/regeneration, which we are addressing
+                through education and social impact outreach. In Amalla
+                community, Udenu LGA, Enugu State, we are reversing this trend.
               </motion.p>
             </motion.div>
           </motion.div>

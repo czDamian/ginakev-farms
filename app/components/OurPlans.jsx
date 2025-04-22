@@ -55,7 +55,7 @@ const OurPlans = () => {
     },
     {
       title:
-        "Growing of Plantains and Habanero peppers to further enhance carbon sequestration",
+        "Regeneration of Plantains & Habanero peppers to further enhance carbon sequestration & some economic offsets",
       icon: <FaLeaf className="text-green-600 text-2xl" />,
       image: "/Plantain.jpg",
       color: "from-lime-500 to-lime-600",
@@ -64,19 +64,19 @@ const OurPlans = () => {
       title:
         "Educating the local community via social impact campaigns on environmental and climate awareness",
       icon: <FaSun className="text-yellow-500 text-2xl" />,
-      image: "/cashew7.jpg",
+      image: "/education.jpg",
       color: "from-yellow-500 to-yellow-600",
     },
     {
       title:
-        "Empowering the local community with solar street lights and solar lamps for traders",
+        "Empowering the local community with Energy awareness and solar lights for climate impact",
       icon: <FaSun className="text-yellow-500 text-2xl" />,
       image: "/solar.jpg",
       color: "from-yellow-500 to-yellow-600",
     },
     {
       title:
-        "Implement borehole water projects for schools in the rural communities ",
+        "Implement social impact borehole water projects for schools in rural communities",
       icon: <FaWater className="text-blue-500 text-2xl" />,
       image: "/borehole.jpg",
       color: "from-blue-500 to-blue-600",
@@ -141,7 +141,9 @@ const OurPlans = () => {
                           height={1000}
                           width={1000}
                           className="transition-transform duration-500 hover:scale-105 object-cover"
-                        />
+                        />{" "}
+                        {/* Overlay to improve text readability */}
+                        <div className="absolute inset-0 bg-[#599e73]/41" />
                       </div>
                     ))}
                   </div>
@@ -153,7 +155,9 @@ const OurPlans = () => {
                       height={1000}
                       width={1000}
                       className="transition-transform duration-500 hover:scale-105 object-cover"
-                    />
+                    />{" "}
+                    {/* Overlay to improve text readability */}
+                    <div className="absolute inset-0 bg-[#599e73]/41" />
                     <div
                       className={`absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r ${plan.color}`}
                     ></div>

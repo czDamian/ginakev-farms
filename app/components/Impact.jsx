@@ -111,6 +111,28 @@ const Impact = () => {
               className="grid grid-cols-1 md:grid-cols-2 gap-8"
             >
               {/* First EcoForest Image */}
+
+              <motion.div
+                variants={imageVariants}
+                whileHover={{ scale: 1.03, y: -5 }}
+                className="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100"
+              >
+                <div className="p-6">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                    Map of Ginakev Farms on GainForest
+                  </h3>
+                  <div className="flex items-center text-sm text-green-600 mb-4">
+                    <span className="inline-block w-2 h-2 rounded-full bg-green-500 mr-2"></span>
+                    Verified on blockchain
+                  </div>
+                </div>
+                <div className="relative h-96 overflow-hidden">
+                  <GainforestMap />
+                </div>
+              </motion.div>
+
+              {/* Second EcoForest Image */}
+
               <motion.div
                 variants={imageVariants}
                 whileHover={{ scale: 1.03, y: -5 }}
@@ -139,26 +161,6 @@ const Impact = () => {
                       className="transition-transform duration-500 hover:scale-110 object-cover h-full"
                     />
                   </Link>
-                </div>
-              </motion.div>
-
-              {/* Second EcoForest Image */}
-              <motion.div
-                variants={imageVariants}
-                whileHover={{ scale: 1.03, y: -5 }}
-                className="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100"
-              >
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                    Map of Ginakev Farms on GainForest
-                  </h3>
-                  <div className="flex items-center text-sm text-green-600 mb-4">
-                    <span className="inline-block w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                    Verified on blockchain
-                  </div>
-                </div>
-                <div className="relative h-96 overflow-hidden">
-                  <GainforestMap />
                 </div>
               </motion.div>
             </motion.div>

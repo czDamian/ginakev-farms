@@ -18,9 +18,9 @@ export default function Home() {
       <Achievements/>
       <OurPlans/>
       <Impact/>
+      <Partners/>
       <Contact/>
       <Gallery/>
-      <Partners/>
       <Footer/>
     </div>
   );

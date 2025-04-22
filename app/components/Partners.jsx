@@ -43,7 +43,7 @@ const Partners = () => {
   return (
     <section id="partners" className="py-12 px-4 bg-gray-100">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-8">Our Partners</h2>
+        <h2 className="text-3xl font-bold mb-8">We've Collaborated With</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {partnerData.map((partner) => (
