@@ -51,7 +51,7 @@ const OurPlans = () => {
       icon: <GiFly className="text-amber-500 text-2xl" />,
       image: "/beekeeping.jpg",
       color: "from-amber-500 to-amber-600",
-      multipleImages: ["/cashew3.jpg", "/cashew4.jpg", "/cashew5.jpg"],
+      // multipleImages: ["/beekeeping.jpg", "/cashew4.jpg", "/cashew5.jpg"],
     },
     {
       title:
@@ -115,12 +115,12 @@ const OurPlans = () => {
                 className="bg-white rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col h-full"
               >
                 {/* Plan content */}
-                <div className="p-6 flex items-start space-x-4">
+                <div className="p-4 sm:p-6 flex items-start space-x-4">
                   <div className="bg-green-50 p-3 rounded-full">
                     {plan.icon}
                   </div>
                   <div>
-                    <h2 className="text-xl font-bold text-gray-800 mb-2">
+                    <h2 className="sm:text-xl font-bold text-gray-800 mb-2">
                       {plan.title}
                     </h2>
                     <div className="w-16 h-1 bg-gradient-to-r from-green-400 to-green-600 rounded-full"></div>
