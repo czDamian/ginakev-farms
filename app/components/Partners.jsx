@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 const partnerData = [
   {
@@ -19,7 +19,13 @@ const partnerData = [
     logo: "/hypercerts.jpg",
     alt: "Hypercerts logo",
   },
-]
+  {
+    id: 4,
+    name: "Flof",
+    logo: "/flof.jpg",
+    alt: "Flof logo",
+  },
+];
 
 const PartnerLogo = ({ logo, alt }) => (
   <div className="flex justify-center items-center p-4">
@@ -31,7 +37,7 @@ const PartnerLogo = ({ logo, alt }) => (
       className="rounded-lg shadow-md h-auto max-h-28 w-auto object-contain transition-transform hover:scale-105"
     />
   </div>
-)
+);
 
 const Partners = () => {
   return (
@@ -39,14 +45,18 @@ const Partners = () => {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-8">Our Partners</h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {partnerData.map((partner) => (
-            <PartnerLogo key={partner.id} logo={partner.logo} alt={partner.alt} />
+            <PartnerLogo
+              key={partner.id}
+              logo={partner.logo}
+              alt={partner.alt}
+            />
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Partners
+export default Partners;
